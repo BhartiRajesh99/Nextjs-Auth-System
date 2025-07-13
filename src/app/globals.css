@@ -19,6 +19,36 @@
   }
 }
 
+.typewriter {
+  font-family: monospace;
+  font-size: 1.5rem;
+  text-align: center;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  border-right: 1px solid #de650f;
+  width: 0;
+  animation: typing 3s steps(8) alternate infinite, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 8ch; /* Adjust based on your text length */
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #de650f;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
