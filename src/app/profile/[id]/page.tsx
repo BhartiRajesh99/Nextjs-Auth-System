@@ -1,5 +1,5 @@
 // "use client";
-import Logout from "@/app/logout/page";
+import {Logout} from "@/app/logout/page";
 import { ThreeDMarquee } from "@/components/ui/3d-marquee";
 
 export default function ThreeDMarqueeDemoSecond() {

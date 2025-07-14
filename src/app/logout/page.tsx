@@ -28,4 +28,4 @@ function Logout({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default Logout
+export {Logout}

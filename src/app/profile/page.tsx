@@ -35,7 +35,7 @@
 
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import Logout from "../logout/page";
+import {Logout} from "../logout/page";
 
 export default function ThreeDCardDemo() {
   return (
