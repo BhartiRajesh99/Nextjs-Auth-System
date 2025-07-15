@@ -81,8 +81,7 @@ export default function ThreeDCardDemo() {
                 <CardItem
                   translateZ={20}
                   as="a"
-                  href="https://twitter.com/mannupaaji"
-                  target="__blank"
+                  href="#"
                   className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                 >
                   Try now →
