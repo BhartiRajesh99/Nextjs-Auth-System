@@ -12,12 +12,14 @@ export function middleware(request: NextRequest) {
     path === "/verifyemail";
   const token = request.cookies.get("token")?.value || "";
   if (isPublic && token) {
-    return NextResponse.redirect(new URL("/", request.nextUrl));
+    return NextResponse.redirect(new URL("/profile", request.nextUrl));
   }
   
   if (!isPublic && !token) {
     return NextResponse.redirect(new URL("/signup", request.nextUrl));
   }
+
+  return NextResponse.next()
 }
 
 export const config = {
