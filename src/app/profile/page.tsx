@@ -90,9 +90,10 @@ export default function ThreeDCardDemo() {
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="px-4 py-2 flex items-center justify-center gap-2 cursor-pointer rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Sign up
+                  <img src="/search.png" className="w-6 h-6" />
+                  <span className="text-center">Explore</span>
                 </CardItem>
               </div>
             </CardBody>
